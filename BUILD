@@ -86,7 +86,7 @@ macos_application(
     name = "XCBBuildServiceProxy",
     bundle_id = "com.xcbuildkit.example",
     infoplists = ["Examples/XCBBuildServiceProxy/Info.plist"],
-    minimum_os_version = "10.15.4",
+    minimum_os_version = "10.15",
     version = ":XCBuildKitVersion",
     deps = [":XCBBuildServiceProxyLib"],
 )
