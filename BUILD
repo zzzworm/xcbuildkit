@@ -106,7 +106,7 @@ macos_application(
     name = "HybridBuildService",
     bundle_id = "com.xcbuildkit.example",
     infoplists = ["Examples/HybridBuildService/Info.plist"],
-    minimum_os_version = "10.15.4",
+    minimum_os_version = "10.15",
     version = ":XCBuildKitVersion",
     deps = [":HybridBuildServiceLib"],
 )
@@ -148,7 +148,7 @@ macos_application(
         "Examples/BazelBuildService/Info.plist",
         ":BuildInfo",
     ],
-    minimum_os_version = "10.15.4",
+    minimum_os_version = "10.15",
     version = ":XCBuildKitVersion",
     deps = [":BazelBuildServiceLib"],
 )
